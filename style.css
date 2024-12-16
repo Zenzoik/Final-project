@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(209, 237, 248);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+/* font-size for all of text */
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem; 
+}
+
+/* nav bar */
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 150px;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+nav li{
+    margin-right: 50px;
+}
+nav a:hover{
+    color:rgb(255, 159, 130);
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    margin-top: 2rem;
+    background-color: black;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+/* Main */
+section{
+    display: flex;
+}
+article{
+    flex: 1;
+}
+#footer_logo{
+    width: 200px;
+    height: auto;
+}
+.promo-banner1{
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(https://joseppons.com/formacion/wp-content/uploads/2020/11/servicios-salon-barberia.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+.promo-banner2{
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+.promo-banner2 > article{
+    background-color: rgb(255, 159, 130);
+    border-radius: 20px;
+    justify-content: space-around;
+    padding: 1.5rem;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+
+}
+.promo-banner2 > article:hover{
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-10px); 
+    cursor: pointer; 
+}
+.promo-banner2 img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 1rem;
+}
+footer > div{
+    display: flex;
+    align-items: center;
+}
+footer p{
+    color: rgb(196, 69, 30);
+}
